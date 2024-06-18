@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.preview {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+#numberInput{
+    width: 50%;
+}
+#incrementBtn{
+    width: 50px;
+    height: 40px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    display: inline;
+}
+#decrementBtn{
+    width: 50px;
+    height: 40px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    display: inline;
+    margin-left: 30px;
+}
+#apply-theme{
+    width: 120px;
+    height: 40px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    display: inline;
+    margin-top: 10px;
+}
+#download-css{
+    width: 120px;
+    height: 40px;
+    background-color: #ddd;
+    border: none;
+    color: black;
+    font-weight: bolder;
+    display: inline;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+select{
+    height: 40px;
+    padding-left: 20px;
+}
